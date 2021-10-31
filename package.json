@@ -1,0 +1,55 @@
+{
+  "name": "Joonie",
+  "version": "1.0.2",
+  "description": "lavalink music bot base in erelajs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brItsMyEyes/Joonie.git"
+  },
+  "keywords": [
+    "lavalink",
+    "erela",
+    "music",
+    "bot",
+    "discord-music",
+    "discord",
+    "musicbot"
+  ],
+  "author": "ItsMyEyes",
+  "license ": "MIT",
+  "bugs": "https://github.com/brItsMyEyes/Joonie/issues",
+  "homepage": "https://github.com/brItsMyEyes/Joonie#readme",
+  "dependencies": {
+    "@ksoft/api": "^3.1.9",
+    "audit": "^0.0.6",
+    "chalk": "^4.1.2",
+    "common-tags": "^1.8.0",
+    "delay": "^5.0.0",
+    "discord.js": "^13.2.0",
+    "dotenv": "^10.0.0",
+    "erela.js": "^2.3.3",
+    "erela.js-deezer": "^1.0.7",
+    "erela.js-facebook": "^1.0.4",
+    "erela.js-spotify": "^1.2.0",
+    "fs": "^0.0.1-security",
+    "genius-lyrics": "^4.2.9",
+    "image-palette": "^2.1.0",
+    "image-pixels": "^2.2.2",
+    "lodash": "^4.17.21",
+    "lyrics-finder": "^21.7.0",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^6.0.9",
+    "node-superfetch": "^0.2.3",
+    "nodemon": "^2.0.14",
+    "systeminformation": "^5.8.0"
+  }
+}

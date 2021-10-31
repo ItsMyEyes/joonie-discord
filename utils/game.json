@@ -1,0 +1,42 @@
+[
+    {
+        "type": "youtube",
+        "gameId": 880218394199220334
+    },
+    {
+        "type": "poker",
+        "gameId": 755827207812677713
+    },
+    {
+        "type": "betrayal",
+        "gameId": 773336526917861400
+    },
+    {
+        "type": "fishing",
+        "gameId": 814288819477020702
+    },
+    {
+        "type": "chess",
+        "gameId": 832012774040141894
+    },
+    {
+        "type": "lettertile",
+        "gameId": 879863686565621790
+    },
+    {
+        "type": "wordsnack",
+        "gameId": 879863976006127627
+    },
+    {
+        "type": "doodlecrew",
+        "gameId": 878067389634314250
+    },
+    {
+        "type": "awkword",
+        "gameId": 879863881349087252
+    },
+    {
+        "type": "spellcast",
+        "gameId": 852509694341283871
+    }
+]
