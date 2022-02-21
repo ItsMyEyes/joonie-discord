@@ -1,23 +1,39 @@
 {
-    "token": "ODM1OTYzNjMyMDA4OTUzOTU2.YIXFzQ.rJYatrmqwhqi8qXvTelWLzRiKGY", 
-    "prefix": "d.",
-    "ksoftapi": "",   
-    "ownerID": "526265517363953675",
-    "SpotifyID": "c0c0af7320124df5a5c9dfe354bf069f",
-    "SpotifySecret": "d065e071a6ac46da9363e9b198ab72ea",
-    "mongourl": "mongodb+srv://devil:airforce407!@cluster0.ynplo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    "embedColor": "#303236",
-    "logs": "",
-     "nodes": [
-        {
-          "host": "disbotlistlavalink.ml",
-          "port": 443,
-          "password": "LAVA",
-          "identifier": "DisBotlist Lavalink",
-          "retryDelay": 3000,
-          "secure": true
-        }
-      ]
-  }
+  "token": "Nzc5NzY2NjI1NDY4ODA5MjY2.X7lUQg.bpA3PGyALCFvqlDO-ygV3ge_BkQ", 
+  "prefix": ">",
+  "ksoftapi": "",   
+  "ownerID": "526265517363953675",
+  "SpotifyID": "c0c0af7320124df5a5c9dfe354bf069f",
+  "SpotifySecret": "d065e071a6ac46da9363e9b198ab72ea",
+  "mongourl": "mongodb+srv://devil:airforce407!@cluster0.ynplo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "embedColor": "#303236",
+  "logs": "",
+   "nodes": [
+     {
+        "host": "www.lavalinknodepublic.ml",
+        "port": 443,
+        "password": "mrextinctcodes",
+        "identifier": "Main",
+        "retryDelay": 3000,
+        "secure": true
+      },
+     {
+        "host": "lavalink.devz.cloud",
+        "port": 443,
+        "password": "mathiscool",
+        "identifier": "apasaja",
+        "retryDelay": 3000,
+        "secure": true
+      },
+     {
+        "host": "lavalink2.devz.cloud",
+        "port": 443,
+        "password": "mathiscool",
+        "identifier": "apasaja",
+        "retryDelay": 3000,
+        "secure": true
+      }
+    ]
+}
 
-      
+    
