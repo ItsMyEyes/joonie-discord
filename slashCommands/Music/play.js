@@ -9,10 +9,10 @@ module.exports = {
   sameVoiceChannel: false,
   options: [
     {
-      name: "input",
+      name: "song",
       description: "The search input (name/url)",
       required: true,
-      type: "STRING"
+      type: 3,
 		}
 	],
 
@@ -29,7 +29,7 @@ module.exports = {
       const emojiplaylist = client.emoji.playlist;
 
     if (!interaction.replied) await interaction.deferReply().catch(() => {});
-    const query = interaction.options.getString("input");
+    const query = interaction.options.getString("song");
     if (!query) return await interaction.editReply({ ephemeral: true, embeds: [new MessageEmbed().setColor(client.embedColor).setDescription("Please provide a search input to search.")]
       }).catch(() => {});
     if (!interaction.member.voice.channel) return await interaction.editReply({ ephemeral: true, embeds: [new MessageEmbed().setColor(client.embedColor).setDescription("You are not connected to a voice channel to use this command.")]

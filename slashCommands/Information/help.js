@@ -13,7 +13,7 @@ module.exports = {
         name: "command",
         description: "the full name of command",
         required: false,
-        type: "STRING"
+        type: 3,
 		}
 	],
 

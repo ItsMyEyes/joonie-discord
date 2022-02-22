@@ -12,8 +12,8 @@ module.exports = {
       name: "filter",
       description: "<Party || Bass || Radio || Pop || Trablebass || Soft || Custom || Off>",
       required: true,
-      type: "STRING"
-	  	}
+      type: 3,
+    }
 	],
 
   /**

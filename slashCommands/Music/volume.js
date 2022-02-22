@@ -12,7 +12,7 @@ module.exports = {
         name: "number",
         description: "give your volume number ",
         required: true,
-        type: "NUMBER"
+        type: 4,
 	  	}
 	],
 

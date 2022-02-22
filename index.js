@@ -26,7 +26,7 @@ client.emoji = require("./utils/emoji.json");
 keepAlive() 
 
 require("./handler/Client")(client);
-
+// require('./register_slash_command');
 
 client.login(client.config.token);
 

@@ -9,7 +9,7 @@ module.exports = {
       name: "prefix",
       description: "give me new prefix",
       required: true,
-      type: "STRING"
+      type: 3,
 		}
 	],
 

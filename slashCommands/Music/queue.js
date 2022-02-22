@@ -13,8 +13,8 @@ module.exports = {
       name: "page",
       description: "Show the music queue page",
       required: false,
-      type: "NUMBER"
-	  	}
+      type: 4,
+    }
 	],
 
   /**

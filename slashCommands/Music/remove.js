@@ -12,7 +12,7 @@ module.exports = {
         name: "number",
         description: "Number of song in queue",
         required: true,
-        type: "NUMBER"
+        type: 4
 		}
 	],
 

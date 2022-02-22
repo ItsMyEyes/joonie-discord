@@ -12,7 +12,7 @@ module.exports = {
         name: "number",
         description: "select a song number",
         required: true,
-        type: "NUMBER"
+        type: 4,
 		}
 	],
 

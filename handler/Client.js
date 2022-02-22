@@ -8,8 +8,6 @@ const FaceBook = require("erela.js-facebook");
 const { readdirSync } = require("fs");
 
 
-
-
 /**
  * @param {Client} client
  */
@@ -99,12 +97,12 @@ readdirSync("./commands/").forEach(dir => {
     }
 })
 
-/// slashCommands
-   const data = [];
-       
-readdirSync("./slashCommands/").forEach((dir) => {
+    /// slashCommands
+    const data = [];
+
+    readdirSync("./slashCommands/").forEach((dir) => {
         const slashCommandFile = readdirSync(`./slashCommands/${dir}/`).filter((files) => files.endsWith(".js"));
-    
+
         for (const file of slashCommandFile) {
             const slashCommand = require(`../slashCommands/${dir}/${file}`);
 

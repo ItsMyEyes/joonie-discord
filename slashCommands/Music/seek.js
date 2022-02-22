@@ -14,8 +14,8 @@ module.exports = {
         name: "time",
         description: "<10s || 10m || 10h>",
         required: true,
-        type: "STRING"
-		}
+        type: 3,
+    }
 	],
 
     /**
