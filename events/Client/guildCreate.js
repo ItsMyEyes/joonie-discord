@@ -4,7 +4,7 @@ const moment = require('moment');
 const { readdirSync } = require("fs");
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
-const { token, clientId } = require('./config.json');
+const { token, clientId } = require('../../config.json');
 
 module.exports = async (client, guild) => {
   
