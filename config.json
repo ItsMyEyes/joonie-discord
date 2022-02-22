@@ -7,7 +7,7 @@
   "SpotifySecret": "d065e071a6ac46da9363e9b198ab72ea",
   "mongourl": "mongodb+srv://devil:airforce407!@cluster0.ynplo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   "embedColor": "#303236",
-  "logs": "",
+  "logs": "945575308201955348",
    "nodes": [
      {
         "host": "www.lavalinknodepublic.ml",
