@@ -32,7 +32,7 @@ module.exports = async (client, guild) => {
       channel.send('```Started refreshing application (/) commands. Guild name: '+ guild.name +' ```');
       await rest.put(
           Routes.applicationGuildCommands(clientId, guild.id),
-          { body: data },
+          { body: dataToPush },
       );
       channel.send('```Successfully reloaded application (/) commands. Guild name:'+ guild.name +' ```');
   })();
