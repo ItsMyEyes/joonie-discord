@@ -33,7 +33,7 @@ module.exports = {
     const query = interaction.options.getString("song");
     if (!query) return await interaction.editReply({ ephemeral: true, embeds: [new MessageEmbed().setColor(client.embedColor).setDescription("Please provide a search input to search.")]
       }).catch(() => {});
-    if (interaction.member.voice.channel ) return await interaction.editReply({ ephemeral: true, embeds: [new MessageEmbed().setColor(client.embedColor).setDescription("You are not connected to a voice channel to use this command.")]
+    if (!interaction.member.voice.channel) return await interaction.editReply({ ephemeral: true, embeds: [new MessageEmbed().setColor(client.embedColor).setDescription("You are not connected to a voice channel to use this command.")]
     }).catch(() => {});
 
     let player = client.manager.get(interaction.guildId);
