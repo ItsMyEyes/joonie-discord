@@ -27,12 +27,13 @@ module.exports = {
         });
       const emojiaddsong = client.emoji.addsong;
       const emojiplaylist = client.emoji.playlist;
+      
 
     if (!interaction.replied) await interaction.deferReply().catch(() => {});
     const query = interaction.options.getString("song");
     if (!query) return await interaction.editReply({ ephemeral: true, embeds: [new MessageEmbed().setColor(client.embedColor).setDescription("Please provide a search input to search.")]
       }).catch(() => {});
-    if (!interaction.member.voice.channel) return await interaction.editReply({ ephemeral: true, embeds: [new MessageEmbed().setColor(client.embedColor).setDescription("You are not connected to a voice channel to use this command.")]
+    if (interaction.member.voice.channel ) return await interaction.editReply({ ephemeral: true, embeds: [new MessageEmbed().setColor(client.embedColor).setDescription("You are not connected to a voice channel to use this command.")]
     }).catch(() => {});
 
     let player = client.manager.get(interaction.guildId);
@@ -43,6 +44,10 @@ module.exports = {
       selfDeafen: true,
       volume: 100
     });
+
+    if (player.state !== "CONNECTED") player.connect();
+
+    player.set("autoplay", false);
 
     const s = await player.search(query, interaction.user);
     if (s.loadType === "LOAD_FAILED") {
