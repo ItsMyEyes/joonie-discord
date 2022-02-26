@@ -14,14 +14,6 @@
     "type": "git",
     "url": "git+https://github.com/brItsMyEyes/Joonie.git"
   },
-  "keywords": [
-    "lavalink",
-    "erela",
-    "music",
-    "bot",
-    "discord-music",
-    "discord",
-  ],
   "author": "ItsMyEyes",
   "license ": "MIT",
   "bugs": "https://github.com/brItsMyEyes/Joonie/issues",

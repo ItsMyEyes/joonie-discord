@@ -22,7 +22,7 @@
   <h3 align="center">Joonie</h3>
 
   <p align="center">
-    Joonie is  a powerful music Bot
+    Joonie is  a powerful
     <br />
     <br />
     <a href="https://discord.com/api/oauth2/authorize?client_id=892268662487121970&permissions=536870911991&redirect_uri=https%3A%2F%2Fdiscord.gg%2FjN8AKsPcwu&response_type=code&scope=guilds.join%20bot%20applications.commands">Invite Joonie</a>
@@ -153,7 +153,7 @@ Then Turn On Both Of Those Settings And Click "Save Changes" Then Your Are Done 
 ## 🌀 About
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=brItsMyEyes&repo=Joonie&theme=tokyonight)](https://github.com/brItsMyEyes/Joonie)
 
- Joonie is a lavalink music bot base in [erela.js](https://github.com/MenuDocs/erela.js)
+ Joonie is a lavalink base in [erela.js](https://github.com/MenuDocs/erela.js)
 If you liked this repository, feel free to leave a star ⭐ to help promote !
 
 ## 💌 Support Server
