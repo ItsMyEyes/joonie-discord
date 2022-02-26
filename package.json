@@ -1,7 +1,7 @@
 {
   "name": "Joonie",
   "version": "1.0.2",
-  "description": "lavalink music bot base in erelajs",
+  "description": "lavalink base in erelajs",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -21,7 +21,6 @@
     "bot",
     "discord-music",
     "discord",
-    "musicbot"
   ],
   "author": "ItsMyEyes",
   "license ": "MIT",
